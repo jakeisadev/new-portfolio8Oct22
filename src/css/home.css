@@ -50,17 +50,15 @@
 }
 
 .social-media a:visited {
-    color: white;
-}
-
-.social-media a:focus {
-    color: white;
+    color: white !important;
 }
 
 .icon {
-    margin-top: 40px;
+    margin-top: 30px;
     width: 40px;
     height: 40px;
+    /* iOS default styling override */
+    appearance: none;
 }
 
 .icon.github:hover {
@@ -76,7 +74,8 @@
 }
 
 .skills-marquee-container h1,
-.projects h1 {
+.projects h1,
+.contact h1 {
     margin-top: 55px;
     font-size: 48px;
 }

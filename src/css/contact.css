@@ -1,0 +1,44 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    margin-top: 50px;
+}
+
+input {
+    width: 40%;
+    height: 50px;
+    margin: 10px 10px 10px 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input,
+textarea {
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+}
+
+textarea {
+    width: 90%;
+}
+
+button {
+    margin-top: 10px;
+    width: 90%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}

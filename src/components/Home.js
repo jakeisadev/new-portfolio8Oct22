@@ -17,6 +17,7 @@ import Coding from "../lotties/Coding.json";
 import Lottie from "lottie-react";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
+import Contact from "../components/Contact";
 
 function Home() {
   return (
@@ -123,7 +124,8 @@ function Home() {
         </div>
       </div>
       <div className="contact">
-        
+        <h1>Reach Out To Me</h1>
+        <Contact />
       </div>
     </div>
   );
