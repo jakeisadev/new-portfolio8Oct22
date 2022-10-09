@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .social-media a {
@@ -20,6 +20,8 @@
     height: 45px;
     /* iOS default styling override */
     appearance: none;
+    -webkit-appearance: none;
+    -webkit-border-radius:0; 
 }
 
 .icon.github:hover {
