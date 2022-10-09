@@ -88,6 +88,7 @@ function Home() {
         <h1>What I've been Making</h1>
         <div className="photos">
           <div className="flex-item">
+            <h2>Cash Watch</h2>
             <img src={cash} alt="" />
             <div className="chip-box">
               <Chip label="MongoDB" variant="outlined" />
@@ -97,12 +98,14 @@ function Home() {
             </div>
           </div>
           <div className="flex-item">
+            <h2>Dashboard App</h2>
             <img src={dashboard} alt="" />
             <div className="chip-box">
               <Chip label="JavaScript" variant="outlined" />
             </div>
           </div>
           <div className="flex-item">
+            <h2>Gallery App</h2>
             <img src={gallery} alt="" />
             <div className="chip-box">
               <Chip label="Bootstrap" variant="outlined" />
@@ -110,6 +113,7 @@ function Home() {
             </div>
           </div>
           <div className="flex-item">
+            <h2>Mugs Coffee</h2>
             <img src={mugs} alt="" />
             <div className="chip-box">
               <Chip label="BootStrap" variant="outlined" />
