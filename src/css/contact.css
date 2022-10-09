@@ -90,3 +90,8 @@ button {
     margin: 10px 0px;
     cursor: pointer;
 }
+
+button:hover {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    transition: .4s ease;
+}

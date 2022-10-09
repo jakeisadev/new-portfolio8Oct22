@@ -68,7 +68,7 @@ function Home() {
         </p>
       </div>
       <div className="projects">
-        <h1>What I've been Making</h1>
+      <h1>What I've been Making</h1>
         <div className="photos">
           <div className="flex-item">
             <h2>Cash Watch</h2>
