@@ -21,7 +21,7 @@
     position: absolute;
     color: white;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .photo-box img {
@@ -38,39 +38,6 @@
 
 .photo-box h2 {
     margin-top: 5px;
-}
-
-.social-media {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.social-media a {
-    text-decoration: none;
-}
-
-.social-media a:visited {
-    color: white !important;
-}
-
-.icon {
-    margin-top: 30px;
-    width: 40px;
-    height: 40px;
-    /* iOS default styling override */
-    appearance: none;
-}
-
-.icon.github:hover {
-    color: black !important;
-}
-
-.icon.linkedin:hover {
-    color: #0A66C2 !important;
-}
-
-.icon.youtube:hover {
-    color: #FF0000 !important;
 }
 
 .skills-marquee-container h1,

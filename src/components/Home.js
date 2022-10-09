@@ -12,7 +12,6 @@ import cash from "../images/cash-watch.png";
 import dashboard from "../images/dashboard.png";
 import gallery from "../images/gallery.png";
 import mugs from "../images/mugs-coffee.png";
-import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
 import Coding from "../lotties/Coding.json";
 import Lottie from "lottie-react";
 import Chip from "@mui/material/Chip";
@@ -27,23 +26,6 @@ function Home() {
           <img src={Jake} alt="Photo of Jacob Starowicz, Web Developer" />
           <h1>Jacob Starowicz</h1>
           <h2>Front End Developer</h2>
-          <div className="social-media">
-            <a href="https://github.com/jakeisadev" target="_blank">
-              <BsGithub className="icon github" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/jacob-starowicz/"
-              target="_blank"
-            >
-              <BsLinkedin className="icon linkedin" />
-            </a>
-            <a
-              href="https://www.youtube.com/channel/UCJubnEonnxEHu-t_pMaWZWw"
-              target="_blank"
-            >
-              <BsYoutube className="icon youtube" />
-            </a>
-          </div>
         </div>
       </div>
       <div className="skills-marquee-container">
