@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-photo-div {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg');
+    height: 65vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    background-size: cover;
+    position: relative;
+}
+
+.photo-box {
+    position: absolute;
+    color: white;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.photo-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.photo-box h1 {
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.photo-box h2 {
+    margin-top: 5px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media a:visited {
+    color: white;
+}
+
+.social-media a:focus {
+    color: white;
+}
+
+.icon {
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.icon.github:hover {
+    color: black !important;
+}
+
+.icon.linkedin:hover {
+    color: #0A66C2 !important;
+}
+
+.icon.youtube:hover {
+    color: #FF0000 !important;
+}
+
+.skills-marquee-container h1,
+.projects h1 {
+    margin-top: 55px;
+    font-size: 48px;
+}
+
+.skills-marquee-container p,
+.about-me p {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 5px;
+    
+}
+
+.skills-marquee-container img {
+    margin-top: 30px;
+    padding: 10px;
+    width: 110px;
+    height: 100px;
+}
+
+.lottie {
+    margin: auto;
+}
+
+.about-me h1 {
+    font-size: 48px;
+    margin-top: 80px;
+}
+
+.photos {
+    margin-top: 50px;
+}
+
+.photos img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chip-box {
+    margin-top: 25px;
+}
+
+.MuiChip-root {
+    font-size: 20px !important;
+}
