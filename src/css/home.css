@@ -102,6 +102,11 @@
     font-size: 20px !important;
 }
 
+.contact h1 {
+    width: 90%;
+    margin: auto;
+}
+
 @media screen and (min-width: 768px) {
     .photo-box {
         margin-top: 80px;
