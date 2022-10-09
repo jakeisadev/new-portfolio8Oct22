@@ -107,7 +107,7 @@ function Home() {
           <div className="flex-item">
             <h2>Mugs Coffee</h2>
             <a
-              href="https://github.com/jakeisadev/mugs-coffee2"
+              href="https://jakeisadev.github.io/mugs-coffee2/"
               target="_blank"
             >
               <img src={mugs} alt="" />
