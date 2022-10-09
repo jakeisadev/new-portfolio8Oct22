@@ -72,7 +72,9 @@ function Home() {
         <div className="photos">
           <div className="flex-item">
             <h2>Cash Watch</h2>
-            <img src={cash} alt="" />
+            <a href="https://cash-watch.herokuapp.com/login" target="_blank">
+              <img src={cash} alt="" />
+            </a>
             <div className="chip-box">
               <Chip label="MongoDB" variant="outlined" />
               <Chip label="Express" variant="outlined" />
@@ -82,14 +84,21 @@ function Home() {
           </div>
           <div className="flex-item">
             <h2>Dashboard App</h2>
-            <img src={dashboard} alt="" />
+            <a
+              href="https://jakeisadev.github.io/dashboard-project/"
+              target="_blank"
+            >
+              <img src={dashboard} alt="" />
+            </a>
             <div className="chip-box">
               <Chip label="JavaScript" variant="outlined" />
             </div>
           </div>
           <div className="flex-item">
             <h2>Gallery App</h2>
-            <img src={gallery} alt="" />
+            <a href="https://jakeisadev.github.io/gallery-app/" target="_blank">
+              <img src={gallery} alt="" />
+            </a>
             <div className="chip-box">
               <Chip label="Bootstrap" variant="outlined" />
               <Chip label="JavaScript" variant="outlined" />
@@ -97,7 +106,12 @@ function Home() {
           </div>
           <div className="flex-item">
             <h2>Mugs Coffee</h2>
-            <img src={mugs} alt="" />
+            <a
+              href="https://github.com/jakeisadev/mugs-coffee2"
+              target="_blank"
+            >
+              <img src={mugs} alt="" />
+            </a>
             <div className="chip-box">
               <Chip label="BootStrap" variant="outlined" />
               <Chip label="JavaScript" variant="outlined" />
