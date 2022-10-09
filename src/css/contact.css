@@ -18,6 +18,8 @@
     margin-top: 30px;
     width: 45px;
     height: 45px;
+    color: black !important;
+    text-decoration: none;
     /* iOS default styling override */
     appearance: none;
     -webkit-appearance: none;
