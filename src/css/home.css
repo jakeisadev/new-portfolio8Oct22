@@ -108,7 +108,7 @@
     margin: auto;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 375px) {
     .photo-box {
         margin-top: 40px;
     }
